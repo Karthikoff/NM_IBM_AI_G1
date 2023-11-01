@@ -54,6 +54,7 @@ Training the Model:
         2. The trained model will be saved in the `models/` directory.
         
 Making Predictions:
+      
        1. After training the model, you can make predictions on new data using the
             following command:
               python predict.py --model_path models/your_model.pkl --input_data
@@ -61,6 +62,7 @@ Making Predictions:
        2. The predictions will be saved in the `results/` directory.
 
 Data Source:
+      
        The dataset is taken from kaggle from the following link below:
        https://www.kaggle.com/datasets/mathchi/diabetes-data-set
        This dataset includes the various data points and attributes related to individuals
@@ -68,6 +70,7 @@ Data Source:
        prediction models.
 
 Contributing:
+      
          We welcome contributions from the community. If you'd like to contribute to this
          project, please follow these steps:
          1. Fork the repository.
