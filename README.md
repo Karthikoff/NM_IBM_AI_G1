@@ -31,40 +31,40 @@ You can install the required libraries using pip:
 pip install -r requirements.txt
 
 
-Installation
+Installation:
           1. Clone the repository to your local machine:
-                   git clone
+                   git clone  https://github.com/Karthikoff/NM_IBM_AI_G1.git
           2. Change to the project directory:
                    cd diabetes-prediction system
 
 
-Data Preparation
+Data Preparation:
         1. Prepare your dataset:
            - Create a CSV file with your data. The file should include features
                (independent variables) and the target variable (diabetes status).
            - Ensure that the data is properly cleaned and formatted.
         2. Place your dataset in the `data/` directory within the project.
         
-Training the Model
+Training the Model:
         1. Run the training script to train the AI model:
              python train.py --data_path data/your_dataset.csv --model_output_path models/
         2. The trained model will be saved in the `models/` directory.
         
-Making Predictions
+Making Predictions:
        1. After training the model, you can make predictions on new data using the
             following command:
               python predict.py --model_path models/your_model.pkl --input_data
               data/new_data.csv --output_path results/predictions.csv
        2. The predictions will be saved in the `results/` directory.
 
-Data Source
+Data Source:
        The dataset is taken from kaggle from the following link below:
        https://www.kaggle.com/datasets/mathchi/diabetes-data-set
        This dataset includes the various data points and attributes related to individuals
        ,which are used for research, analysis, and the development of diabetes
        prediction models.
 
-Contributing
+Contributing:
          We welcome contributions from the community. If you'd like to contribute to this
          project, please follow these steps:
          1. Fork the repository.
