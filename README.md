@@ -20,7 +20,7 @@ diabetes in individuals using machine learning techniques. The system takes
 various input features, such as medical history, genetics, and lifestyle factors,
 and provides a prediction of the likelihood of developing diabetes.
 
-
+Dataset link:https://www.kaggle.com/datasets/mathchi/diabetes-data-set
 Prerequisites:
             Before you can run the code, ensure that you have the following prerequisites
 
