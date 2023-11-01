@@ -48,6 +48,7 @@ Data Preparation:
         2. Place your dataset in the `data/` directory within the project.
         
 Training the Model:
+       
         1. Run the training script to train the AI model:
              python train.py --data_path data/your_dataset.csv --model_output_path models/
         2. The trained model will be saved in the `models/` directory.
