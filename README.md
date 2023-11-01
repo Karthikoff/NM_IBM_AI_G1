@@ -39,6 +39,8 @@ Installation:
 
 
 Data Preparation:
+       
+        
         1. Prepare your dataset:
            - Create a CSV file with your data. The file should include features
                (independent variables) and the target variable (diabetes status).
